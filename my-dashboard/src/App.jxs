@@ -1,0 +1,13 @@
+import Counter from "./components/counter/counter";
+import InputMirror from "./components/inputMirror/InputMirror";
+
+function App() {
+  return (
+    <div>
+      <Counter />
+      <InputMirror />
+    </div>
+  );
+}
+
+export default App;
